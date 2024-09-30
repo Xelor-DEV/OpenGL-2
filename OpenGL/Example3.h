@@ -2,9 +2,12 @@
 #include "Example.h"
 #include "Camera.h"
 #include "IncludeGL.h"
+#include "Vector3.h"
 class Example3 : public Example
 {
-	Camera* camera;
+	Camera camera;
+	Vector3 position_temp;
+	Vector3 direction_temp;
 public:
 	Example3();
 

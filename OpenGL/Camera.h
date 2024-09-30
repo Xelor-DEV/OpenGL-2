@@ -17,6 +17,4 @@ public:
 
 	void Init();
 	void Update();
-	void LookAt(Vector3);
-	void KeyboardFunc(unsigned char key, int X, int Y);
 };
