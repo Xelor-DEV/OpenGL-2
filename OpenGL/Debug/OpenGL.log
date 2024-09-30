@@ -1,0 +1,45 @@
+﻿  BMPTextureLoader.cpp
+  Camera.cpp
+  Circulo.cpp
+C:\Users\Blade\Music\OpenGL\OpenGL\Circulo.cpp(20,29): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Circulo.cpp(25,25): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Circulo.cpp(30,13): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  Cuadrado.cpp
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(11,33): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(11,22): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(12,32): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(12,21): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(13,31): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(13,21): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(14,32): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Cuadrado.cpp(14,22): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+  Cubo.cpp
+  DirectionalLight.cpp
+  Esfera.cpp
+C:\Users\Blade\Music\OpenGL\OpenGL\Esfera.cpp(17,48): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+  Example.cpp
+  Example1.cpp
+  Example2.cpp
+  Example3.cpp
+  Example4.cpp
+  Example5.cpp
+  Figura.cpp
+  Figura2D.cpp
+  Figura3D.cpp
+  Light.cpp
+  OpenGL.cpp
+  Pirámide.cpp
+  PointLight.cpp
+  Generando código...
+  Compilando...
+  Polígono.cpp
+  Punto3D.cpp
+  SpotLight.cpp
+  TextureLoader.cpp
+  Triangulo.cpp
+C:\Users\Blade\Music\OpenGL\OpenGL\Triangulo.cpp(11,19): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Triangulo.cpp(12,22): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+C:\Users\Blade\Music\OpenGL\OpenGL\Triangulo.cpp(13,21): warning C4244: 'argumento': conversión de 'int' a 'GLfloat'; posible pérdida de datos
+  Vector3.cpp
+  Generando código...
+  OpenGL.vcxproj -> C:\Users\Blade\Music\OpenGL\Debug\OpenGL.exe
