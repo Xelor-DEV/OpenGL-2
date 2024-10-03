@@ -1,6 +1,6 @@
 #include "Cuadrado.h"
 
-Cuadrado::Cuadrado(int l) : lado(l)
+Cuadrado::Cuadrado(float l) : lado(l)
 {
 
 }
@@ -15,17 +15,17 @@ void Cuadrado::Draw()
     glEnd();
 }
 
-int Cuadrado::calcularArea()
+float Cuadrado::calcularArea()
 {
     return lado * lado;
 }
 
-int Cuadrado::calcularPerímetro()
+float Cuadrado::calcularPerímetro()
 {
     return 4 * lado;
 }
 
-void Cuadrado::cambiarTamaño(int nuevoTamaño)
+void Cuadrado::cambiarTamaño(float nuevoTamaño)
 {
     lado = nuevoTamaño;
 }

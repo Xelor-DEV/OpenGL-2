@@ -1,6 +1,6 @@
 #include "Triangulo.h"
 
-Triangulo::Triangulo(int b, int h) : base(b), altura(h) 
+Triangulo::Triangulo(float b, float h) : base(b), altura(h)
 {
 
 }
@@ -14,18 +14,18 @@ void Triangulo::Draw()
     glEnd();
 }
 
-int Triangulo::calcularArea()
+float Triangulo::calcularArea()
 {
     return (base * altura) / 2;
 }
 
-int Triangulo::calcularPerímetro()
+float Triangulo::calcularPerímetro()
 {
     // Considerando un triángulo equilátero
     return 3 * base;
 }
 
-void Triangulo::cambiarTamaño(int nuevoTamaño)
+void Triangulo::cambiarTamaño(float nuevoTamaño)
 {
     base = nuevoTamaño;
     altura = nuevoTamaño; // Ajuste proporcional para mantener la forma

@@ -9,8 +9,8 @@ private:
 public:
     Circulo(float r, int seg = 30);
     void Draw() override;
-    int calcularArea() override;
-    int calcularPerímetro() override;
-    void cambiarTamaño(int nuevoTamaño) override;
+    float calcularArea() override;
+    float calcularPerímetro() override;
+    void cambiarTamaño(float nuevoTamaño) override;
 };
 

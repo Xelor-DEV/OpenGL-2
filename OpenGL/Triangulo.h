@@ -4,15 +4,16 @@ class Triangulo :
     public Figura2D
 {
 private:
-    int base;
-    int altura;
+    float base;
+    float altura;
 
 public:
-    Triangulo(int b, int h);
+
+    Triangulo(float b, float h);
 
     void Draw() override;
-    int calcularArea() override;
-    int calcularPerímetro() override;
-    void cambiarTamaño(int nuevoTamaño) override;
+    float calcularArea() override;
+    float calcularPerímetro() override;
+    void cambiarTamaño(float nuevoTamaño) override;
 };
 

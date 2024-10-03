@@ -6,6 +6,6 @@ public:
     int radio;
     Esfera(int r);
     void Draw() override;
-    int calcularVolumen() override;
+    float calcularVolumen() override;
 };
 

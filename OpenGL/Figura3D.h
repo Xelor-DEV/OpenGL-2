@@ -4,5 +4,5 @@
 class Figura3D : public Figura
 {
 public:
-    virtual int calcularVolumen() = 0;
+    virtual float calcularVolumen() = 0;
 };

@@ -16,16 +16,16 @@ void Circulo::Draw() {
 }
 
 // Método para calcular el área del círculo
-int Circulo::calcularArea() {
+float Circulo::calcularArea() {
     return 3.14159f * radio * radio;
 }
 
 // Método para calcular el perímetro (circunferencia) del círculo
-int Circulo::calcularPerímetro() {
+float Circulo::calcularPerímetro() {
     return 2 * 3.14159f * radio;
 }
 
 // Método para cambiar el tamaño del círculo (cambiar radio)
-void Circulo::cambiarTamaño(int nuevoTamaño) {
+void Circulo::cambiarTamaño(float nuevoTamaño) {
     radio = nuevoTamaño;
 }

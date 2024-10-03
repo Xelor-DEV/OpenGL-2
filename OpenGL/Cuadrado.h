@@ -3,19 +3,19 @@
 class Cuadrado : public Figura2D
 {
 private:
-    int lado;
+    float lado;
 
 public:
 
     Cuadrado() : lado(1) {} 
-    Cuadrado(int l);
+    Cuadrado(float l);
 
     void Draw() override;
 
-    int calcularArea() override;
+    float calcularArea() override;
 
-    int calcularPerímetro() override;
+    float calcularPerímetro() override;
 
-    void cambiarTamaño(int nuevoTamaño) override;
+    void cambiarTamaño(float nuevoTamaño) override;
 };
 

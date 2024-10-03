@@ -14,4 +14,5 @@ public:
 	virtual void init();
 	virtual void Render();
 	virtual void Draw()=0;
+	void SetTexture(GLuint idTexture);
 };

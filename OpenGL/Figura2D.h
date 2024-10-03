@@ -4,7 +4,7 @@
 class Figura2D : public Figura
 {
 public:
-    virtual int calcularArea() = 0;
-    virtual int calcularPerímetro() = 0;
-    virtual void cambiarTamaño(int nuevoTamaño) = 0;
+    virtual float calcularArea() = 0;
+    virtual float calcularPerímetro() = 0;
+    virtual void cambiarTamaño(float nuevoTamaño) = 0;
 };

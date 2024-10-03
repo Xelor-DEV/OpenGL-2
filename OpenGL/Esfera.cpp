@@ -12,7 +12,8 @@ void Esfera::Draw()
     glPopMatrix();
 }
 
-int Esfera::calcularVolumen()
+float Esfera::calcularVolumen()
 {
-    return (4 / 3.0) * 3.14159 * radio * radio * radio;
+    float result = (4 / 3.0f) * 3.14159f * radio * radio * radio;
+    return result;
 }

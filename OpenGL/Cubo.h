@@ -5,12 +5,12 @@
 class Cubo : public Figura3D
 {
 private:
-    Cuadrado cuad[6];
-    int lado;
+    Cuadrado* cuad[6];
+    float lado;
 
 public:
-    Cubo(int l);
+    Cubo(float l);
     void Draw() override;
-    int calcularVolumen() override;
+    float calcularVolumen() override;
 };
 

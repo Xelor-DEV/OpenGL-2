@@ -6,14 +6,14 @@ class Pirámide : public Figura3D
 {
 private:
     Triangulo* tri[4];  // 4 triángulos: 1 base y 3 laterales
-    int ladoBase;        // Longitud de los lados de los triángulos
-    int altura;
+    float ladoBase;        // Longitud de los lados de los triángulos
+    float altura;
 
 public:
-    Pirámide(int baseLado, int h);
+    Pirámide(float baseLado, float h);
 
     void init() override;
     void Draw() override;
-    int calcularVolumen() override;
+    float calcularVolumen() override;
 };
 
