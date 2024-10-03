@@ -189,6 +189,9 @@
     <ClCompile Include="Pirámide.cpp">
       <Filter>Archivos de origen\Utility\Figuras\Figuras3D\Pirámide</Filter>
     </ClCompile>
+    <ClCompile Include="Example6.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -271,6 +274,9 @@
     </ClInclude>
     <ClInclude Include="Triangulo.h">
       <Filter>Archivos de encabezado\Utility\Figuras\Figuras2D\Triangulo</Filter>
+    </ClInclude>
+    <ClInclude Include="Example6.h">
+      <Filter>Archivos de encabezado\Example</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

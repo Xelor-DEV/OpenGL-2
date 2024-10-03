@@ -19,12 +19,7 @@ class Example5 : public Example
 	TextureLoader* _TextureLoader;
 	GLuint texture;
 
-	Cubo* cubo;
-	Pirámide* pirámide;
-	Esfera* esfera;
-	Cuadrado* cuadrado;
-	Triangulo* triangulo;
-	Circulo* circulo;
+	Figura* figura;
 
 public:
 	Example5();
@@ -32,7 +27,6 @@ public:
 	virtual void Render()override;
 	virtual void KeyboardFunc(unsigned char key, int X, int Y)override;
 	virtual void Idle()override;
-	void DrawShape();
 	void DrawTriangle(float x, float y, float z);
 	void DrawQuad(float x, float y, float z);
 	void DrawCube(float size, float x, float y, float z);

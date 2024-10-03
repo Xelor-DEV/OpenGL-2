@@ -13,12 +13,7 @@ Example5::Example5()
     scale = { 1.0f, 1.0f, 1.0f };
 
     // Crear instancias de las figuras
-    cubo = new Cubo(4);
-    pirámide = new Pirámide(2, 2);
-    esfera = new Esfera(1);
-    cuadrado = new Cuadrado(1);
-    triangulo = new Triangulo(2, 2);
-    circulo = new Circulo(1); // Crear el objeto circulo
+    figura = new Cubo(2);
 }
 void Example5::init()
 {
@@ -27,13 +22,13 @@ void Example5::init()
     glEnable(GL_DEPTH_TEST);
     gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
     glMatrixMode(GL_MODELVIEW);
-
+    figura->SetTexture(texture);
 }
 void Example5::Render()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     Example::Draw3DAxis(50);
-    DrawShape();
+    figura->Render();
     glFlush();
 }
 void Example5::KeyboardFunc(unsigned char key, int X, int Y)
@@ -43,23 +38,6 @@ void Example5::KeyboardFunc(unsigned char key, int X, int Y)
 void Example5::Idle()
 {
 
-}
-void Example5::DrawShape()
-{
-    //cubo->SetTexture(texture);
-    //pirámide->SetTexture(texture);
-    //esfera->SetTexture(texture);
-    //cuadrado->SetTexture(texture);
-    //triangulo->SetTexture(texture);
-    circulo->SetTexture(texture);
-
-    //cubo->Render();
-    //pirámide->Render();
-    //esfera->Render();
-    //cuadrado->Render();
-    //triangulo->Render();
-    circulo->Render();
-    
 }
 
 void Example5::DrawTriangle(float x, float y, float z)

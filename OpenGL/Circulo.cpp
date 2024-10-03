@@ -4,6 +4,7 @@
 Circulo::Circulo(float r, int seg) : radio(r), segmentos(seg) {}
 
 void Circulo::Draw() {
+
     glBegin(GL_TRIANGLE_FAN);
     glVertex2f(0.0f, 0.0f); // Centro del círculo
     for (int i = 0; i <= segmentos; ++i) {

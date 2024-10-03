@@ -11,15 +11,16 @@
   Example3.cpp
   Example4.cpp
   Example5.cpp
+  Example6.cpp
   Figura.cpp
   Figura2D.cpp
   Figura3D.cpp
   Light.cpp
   OpenGL.cpp
   Pirámide.cpp
-  PointLight.cpp
   Generando código...
   Compilando...
+  PointLight.cpp
   Polígono.cpp
   Punto3D.cpp
   SpotLight.cpp
@@ -27,4 +28,4 @@
   Triangulo.cpp
   Vector3.cpp
   Generando código...
-  OpenGL.vcxproj -> C:\Users\Blade\Music\OpenGL\Debug\OpenGL.exe
+  OpenGL.vcxproj -> C:\Users\AMD Ryzen\Desktop\OpenGL-2\Debug\OpenGL.exe
